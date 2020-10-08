@@ -35,7 +35,6 @@ fn main() {
 
     println!(">Patching kernel callback");
     //get address of new callback handler
-    //(the actual function address not the VPointer)
     let newhandler = custom_callback as *mut c_void;
     println!("\t[+]Custom callback handler address: {:?}", newhandler);
     //get address of PEB
