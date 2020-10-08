@@ -1,5 +1,3 @@
-//save having to load in ntuser crate and it's more
-//fun to write assembly anyway
 use std::{
     mem::size_of
 };
